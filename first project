@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Portfolio </title>
+<style>
+html{
+		margin:0;
+		padding:0;
+}
+
+header{
+		widht: 100vw;
+		height: 80px;
+		position: scroll;
+		top: 0;
+		background-color:white;
+		border-bottom: 1px solid red;
+		z-index: 1;
+}
+
+nav{
+	height:100%;
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	overflow: hidden;
+}
+
+nav-link{
+		 text-transform: uppercase;
+		 color: orange;
+		 font: 20px sans-serif;
+		 padding:100% 25px;
+}
+
+nav-link-hover{
+				background-color: red;
+				color:white;	
+}
+
+body{
+		font-family: Arial, Helvetica, Sans-serif;
+		font-size: 13pt;
+		background-color:#cccccc;
+		padding: 10px;
+		margin: 0;
+}
+
+h1{
+	font-size: 15pt;
+	color:orange;
+	text-align:center;
+	padding: 18px 0 18px 0;;
+	margin:0 0 10px 0;
+}
+
+h1 span{
+		border: 1pz solid orangered;
+		padding: 10px;
+}
+
+p{
+		padding:0;
+		margin:0;
+}
+
+img-circle{
+			border:3px solid black;
+			border-radius:50%;
+}
+
+section{
+		background-color:#fff;
+		padding: 15px;
+		margin-border: 10px;
+		border-radius: 10px;
+}
+
+#header{
+		background-image:url("https://uploads-ssl.webflow.com/5e4dfa5d58d02b574c094981/5e61b936452770f1cc437223_Render%20Engine%20Blur.jpg");
+		
+		background-size: cover;
+}
+
+#header img{
+			display: block;
+			widht: 80px;
+			height: 80px;
+			margin: auto;
+}
+
+#header p{
+			font-size:25pt;
+			color: orange;
+			padding-top: 5px;
+			margin: 0;
+			font-weight: bold;
+			text-align: center;
+}
+
+selected{
+		background-color: #f36f48;
+		font-weight: bold;
+		color:white;
+}
+
+gallery{
+		display: felx;
+		flex-wrap: wrap;
+		margin: -1rem -1rem;
+}
+
+gallery-item{
+			flex: 1 0 24rem;
+			margin: -1rem;
+			box-shadow: 0.3rem 0.4rem 0.4rem rgba(0,0,0,4);
+			overflow:hidden;
+}
+
+gallery-image{
+			display:block;
+			widht: 100%
+			height: 100%
+			object-fit: cover;
+			transition: transform 400ms ease-out;
+}
+
+gallery-image: hover{
+		transform: scale(1.15);
+}
+li{
+	margin-bottom: 15px;
+	font-weight:bold;
+}
+
+progress{
+		width: 70%;
+		height: 20px;
+		color:orange;
+		background: #000;
+}
+
+hr{
+	border:0;
+	height: 1px;
+	background: #f36f48;
+}
+
+form{
+		tex-align: center;
+		margin-top:0;
+}
+
+submit{
+		background-color:orange;
+		padding:12px 45px;
+		border-radius: 5px;
+		cursor: pointer;
+		color: #ffffff;
+		border: none;
+		outline: none;
+		margin:0;
+		font-weight:bold;
+}
+
+submit{
+		background-color: black;
+}
+
+textarea{
+		height: 100px;
+}
+
+input textarea{
+		margin-bottom:10px;
+		font-size:11pt;
+		padding: 15px 10px 10px;
+		border: 1px solid #cecece;
+		background-color:#efefef;
+		color:#787575;
+		border-radius: 5px;
+		width: 70%;
+		outline: none;
+}
+
+face{
+	transform: scale(0,4);
+	margin: 0 auto;
+	display: block;
+	margin-top: -35px;
+	margin-bottom: -25px;
+}
+
+#contact img{
+			height:50px;
+			width: 50px;
+			margin-left:7px;
+			margin-right:7px;
+}
+
+#contacts a{
+		text-decoration: none;	
+}
+
+#contacts img-hover{
+				opacity: 0,8;
+}
+
+#contacts{
+			text-align: center;
+}
+
+copyright{
+		font-size:18px;
+		text-align:center;
+		padding-bottom: 10px;
+		color:balck;
+}
+
+</style>
+</head>
+<body>
+<header>
+		
+		<nav id="navbar">
+		<a href="#" class="nav-link"> About Me</a>
+		<a href="#work" class="nav-link"> My Projects </a>
+		<a href="#skills" class="nav-link"> My Skills</a>
+		<a href="#Contact" class="nav-link"> Contact</a>
+		</nav>
+		</header>
+		
+	<div id="header" class="section">
+		<img alt=""class="image-circle"
+	src="file:///C:/Users/HP/Desktop/nanu/IMG20221024191712.jpg"
+		
+		<p>SHRAGVI KALIDAS PANCHAL </p>
+		
+	</div>
+	
+	<div class="section">
+		<h1 id=#><span> About Me</span></h1>
+		
+		<p>
+		This is <b>student</b>.I am from S.N.B.P International School
+		</p>
+	</div>
+	
+	<div class="section">
+	<h1 id=work><span>My Projects</span><h1>
+	<div class="gallery">
+	
+	
+	<div class="gallery-item">
+		<img class="gallery-image"src="file:///C:/Users/HP/Desktop/hobby/SKETCHING.jpg">
+		</div>
+		
+	<div class="gallery-item">
+		<img class="gallery-image"src="file:///C:/Users/HP/Desktop/hobby/listening%20music.jpg">
+		</div>
+		
+	<div class="gallery-item">
+		<img class="gallery-image"src="file:///C:/Users/HP/Desktop/hobby/travelling.jpg">
+		</div>
+	
+		</div>
+		
+	
+		<div class="section">
+			<h1 id=skills><span>My Skills</span></h1>
+			<ul>
+			
+			<li>Html <br />
+			<progress min="0" max="100" value="80"></progress>
+			</li>
+			<li>Css<br />
+			<progress min="0" max="100" value="70"></progress>
+			</li>
+			<li>C++<br />
+			<progress min="0" max="100" value="70"></progress>
+			</li>
+			<li> C programme <br />
+			<progress min="0" max="100" value="98"></progress>
+			</li>
+			
+			</ul>
+			
+			</div> 
+			
+			
+<div class="section">
+		<h1 id=contact><span>Contact Me</span></h1>
+		<form action="shragvipanchal@gmail.com" method="post" enctype="text/plain">
+		
+		<input name="name" placeholder="Name" type="text" required/><br/>
+		<input name="Email" placeholder="Email" type="email"required/><br />
+		<textareaname name="message"placeholder="Message" required></textarea>
+		<input type="submit" value="SEND" class="submit" />
+		
+		</form>
+		
+		
+<div>
+
+<div class="section" id="contacts">
+	<h1><span>Follow Me</span></h1>
+	<div>		
+    
+    <a href="https://facebook.com"/>
+    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png">
+    </a>
+    
+    <a href="https://twitter.com"/>
+    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png">
+    </a>
+    
+    
+    </div>
+</div>
+
+<div class="copyright">
+         &copy;2022 A sincere web developer.All rights reserved.
+</div>
+
+
+		
+	</body>
+	</html>
